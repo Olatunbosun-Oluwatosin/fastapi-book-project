@@ -2,7 +2,7 @@ from tests import client
 
 
 def test_get_all_books():
-    response = client.get("/books/")
+    response = client.get("/api/v1/books/")
     assert response.status_code == 200
     assert len(response.json()) == 3
 

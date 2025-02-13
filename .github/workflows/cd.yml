@@ -54,7 +54,7 @@ jobs:
             docker pull tosyeno/fastapi-app:latest
             docker stop fastapi-app || true
             docker rm fastapi-app || true
-            docker run -d -p 8000:8000 --name fastapi-app aiyus1/fastapi-app:latest
+            docker run -d -p 8000:8000 --name fastapi-app tosyeno/fastapi-app:latest
           EOF
           rm -f private_key
         env:
