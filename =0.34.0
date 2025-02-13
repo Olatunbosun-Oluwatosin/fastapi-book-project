@@ -1,0 +1,14 @@
+Collecting uvicorn
+  Using cached uvicorn-0.34.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting click>=7.0 (from uvicorn)
+  Using cached click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Collecting h11>=0.8 (from uvicorn)
+  Using cached h11-0.14.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting colorama (from click>=7.0->uvicorn)
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Downloading uvicorn-0.34.0-py3-none-any.whl (62 kB)
+Downloading click-8.1.8-py3-none-any.whl (98 kB)
+Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Installing collected packages: h11, colorama, click, uvicorn
+Successfully installed click-8.1.8 colorama-0.4.6 h11-0.14.0 uvicorn-0.34.0
